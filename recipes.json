@@ -258,7 +258,7 @@
       "time": "90 minuten",
       "difficulty": "medium",
       "hometag": "klassieker",
-      "tags": ["klassieker", "gevolgte", "comfortfood", "belgisch"],
+      "tags": ["klassieker", "gevogelte", "comfortfood", "belgisch"],
       "ingredients": [
         "Bladerdeegkoekjes",
         "Gemengd Gehakt",
@@ -343,7 +343,7 @@
     },
     {
       "id": 9,
-      "name": "Fish sticks met preipuree en limoenmayonaise",
+      "name": "Fish sticks met preipuree",
       "imgmain": "fishsticks.jpg",
       "time": "35 minuten",
       "difficulty": "beginner",
@@ -427,6 +427,72 @@
         "Zet een grote pot met water op het vuur en breng aan de kook. Zet eerst de steeltjes van de bimi in het water. Zij hebben wat langer nodig om gaar te zijn. Leg ze dan helemaal onder water en voeg ook de sugar snaps toe. Voeg een snuifje bicarbonaat toe voor de groene kleur te behouden. ",
         "Voeg de scampi bij de saus en laat verder garen.",
         "Hak wat koriander en lente-ui fijn. Giet de groentjes af."    
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Risotto met witloof en champignons",
+      "imgmain": "risottowitloof.jpg",
+      "time": "50 minuten",
+      "difficulty": "medium",
+      "hometag": "rijst",
+      "tags": ["rijst", "vlees", "wintergroenten", "risotto"],
+      "ingredients": [
+        "Witloof",
+        "Sjalot",
+        "Knoflook",
+        "Bospaddenstoelen",
+        "Tijm",
+        "Peterselie",
+        "Risottorijst",
+        "Witte wijn",
+        "Kippenbouillon",
+        "Gedroogde ham",
+        "Parmezaan",
+        "Boter",
+        "Peper",
+        "Zout"
+      ],
+      "instructions": [
+        "Verwarm de oven voor op 100°C.",
+        "Leg de helft van de plakjes ham op een met bakpapier beklede bakplaat en zet 40 minuten in de oven tot ze krokant zijn.",
+        "Snijd de sjalot en het witloof fijn. Bak de sjalot met de geperste look glazig in boter.",
+        "Snijd de resterende ham in kleine reepjes en voeg bij de sjalot. Roerbak 2 minuten.",
+        "Voeg de rijst toe en roerbak nog eens 2 minuten. Schep er de tijmblaadjes en witloof onder. ",
+        "Blus met witte wijn en laat de alcohol verdampen. Schenk er een scheut bouillon bij en roer tot het vocht is opgenomen. Herhaal dit tot de rijst beetgaar is.",
+        "Boen de champignons schoon en bak in boter goudbruin. Voeg de peterselie toe en kruid met peper. ",
+        "Schep onder de risotto. Voeg de Parmezaanse kaas en een klontje boter toe en roer voorzichtig onder elkaar. ",
+        "Schep de risotto op de borden, verdeel er de champignons over en werk af met de krokant gebakken ham."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Biefstuk met een kruidensaus",
+      "imgmain": "biefstukgroenekruiden.jpg",
+      "time": "30 minuten",
+      "difficulty": "beginner",
+      "hometag": "vlees",
+      "tags": ["vlees", "kruiden", "aardappelen", "simpel & lekker"],
+      "ingredients": [
+        "Biefstuk",
+        "Kappertjes",
+        "Room",
+        "Witte wijn",
+        "Dragon",
+        "Zout",
+        "Augurken",
+        "Boter",
+        "Kalfsfond",
+        "Peterselie",
+        "Peper",
+        "Aardappelen",
+        "Tuinkers"
+      ],
+      "instructions": [
+        "Snipper de bladpeterselie en de dragon.",
+        "Bak de biefstukken naar smaak en hou ze warm. ",
+        "Deglaceer de pan met de witte wijn en laat de alcohol verdampen. Voeg er de kalfsfond aan toe en laat tot de helft inkoken. Giet er dan de room bij en laat inkoken tot de gewenste sausdikte. ",
+        "Roer de smaakmakers door de saus. Serveer met het vlees, een flinke toef tuinkers en gebakken aardappelen. "
       ]
     }
   ]
