@@ -34,9 +34,7 @@ app.get("/search", function (req, res) {
     let results = recipes.filter(
       (recipe) =>
         recipe.name.toLowerCase().includes(query) ||
-        recipe.tags.find((tag) =>
-          tag.toLowerCase().includes(query)
-        ) ||
+        recipe.tags.find((tag) => tag.toLowerCase().includes(query)) ||
         recipe.ingredients.find((ingredient) =>
           ingredient.toLowerCase().includes(query)
         )
