@@ -1,16 +1,18 @@
 const express = require("express");
-const recipes = require("./recipes.json").recipes;
-const cors = require("cors");
+const recipes = require("./recipes.json").recipes; //JSON FILE IMPORT
+const cors = require("cors"); //CROSS ORIGIN RESOURCE SHARING
 const app = express();
 
 app.use(cors());
 
-app.use(express.static("public"));
+app.use(express.static("public")); //SERVE STATIC FILES FROM PUBLIC FOLDER
 
+//ENDPOINT FOR LOADING SCREEN
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+//HOMEPAGE
 app.get("/recipes", function (req, res) {
   overview = recipes.map((recipe) => ({
     name: recipe.name,
@@ -20,6 +22,7 @@ app.get("/recipes", function (req, res) {
   res.send(overview);
 });
 
+//GIVES ONE RECIPE PAGE
 app.get("/recipes/:name", function (req, res) {
   detail = recipes.find((item) => item.name === req.params.name);
   console.log(detail);
@@ -27,7 +30,6 @@ app.get("/recipes/:name", function (req, res) {
 });
 
 //SEARCH FUNCTION
-
 app.get("/search", function (req, res) {
   let query = req.query.q?.toLowerCase();
   if (query) {
